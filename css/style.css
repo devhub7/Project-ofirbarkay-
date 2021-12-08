@@ -1,0 +1,142 @@
+ /*base CSS*/
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+p {
+    margin-bottom: 15px;
+}
+/* Header Area Start Start
+  =========================*/
+.header_area {
+    background: rgba(0, 0, 0, 0) url("../img/bg.jpg") no-repeat scroll center center / cover ;
+    padding: 10% 1%;
+}
+.header {
+  padding: 4% 0;
+}
+.header h1 {
+  color: #ffa500;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 2%;
+}
+.header h3 {
+    color:#fff;
+    
+}
+/*Service Area Start
+=========================*/
+.service_area {
+    padding: 5% 0;
+}
+.single-service h3 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.single-service p {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.service_area img {
+  margin: 0 auto;
+  text-align: center;
+  height: 100px;
+}
+.service-ul ul{
+    margin:0;
+    padding:0;
+}
+.service-ul li {
+  list-style: outside none none;
+  margin-bottom: 1%;
+  padding:1%;
+}
+.service-ul li::before {
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #333;
+  border-radius: 50%;
+  content: '\f061';
+  font-family: "FontAwesome";
+  margin-right: 5px;
+  padding: 5px;
+  font-size: 14px;
+}
+.service-ul li:hover li:before{
+    background: #FFA500 none repeat scroll 0 0;
+  border: 1px solid #333;
+}
+/*Testimonial Area Start
+=========================*/
+.service_bottom {
+    background: #EFEFEF none repeat scroll 0 0;
+    padding: 10% 0;
+}
+.service_bottom img {
+    
+}
+
+/*Testimonial Area Start
+=========================*/
+.testimonial_area {
+   padding: 5% 0;
+}
+/*Form Area Start
+=========================*/
+.form_area {
+    background: #EFEFEF;
+    padding:5% 0;
+}
+.form_area ._info {
+    margin:0 auto;
+}
+.form_area a {
+    background: #FFA500;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    color:#000;
+    text-decoration:none;
+    display: inline-block;
+    margin-bottom: 5%;
+}
+.form_area a:focus {
+    outline:none;
+}
+.form_area button#_btn {
+   background: #FFA500;
+   color: #000;
+   border: transparent;
+   font-size: 18px;
+   font-weight: 700;
+   text-transform: uppercase;
+}
+.form_area button#_btn:focus {
+    outline:none;
+    border:transparent;
+    color:#000;
+    background:#FFA500;
+}
+blockquote {
+  border-left: 5px solid #ffa500;
+  font-size: 17.5px;
+  margin: 5% 0 20px;
+  padding: 10px 20px;
+}
+/*Footer Start
+=========================*/
+.footer_area {
+  background: #0C121E none repeat scroll 0 0;
+}
+
+footer {
+    color: #fff;
+    font-size: 14px;
+    padding: 2% 0;
+}
